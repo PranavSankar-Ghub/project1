@@ -1,0 +1,29 @@
+table{
+    border-collapse: collapse;
+
+}
+.tbl_head{
+    background-color: hotpink;
+}
+.tbl_head:hover{
+    background-color: indigo;
+}_
+.tbl_row{
+    background-color: gray;
+}
+.tbl_row:hover{
+    background-color: yellow;
+}
+.tbl_row1{
+    background-color: aqua;
+
+}
+.tbl_row1:hover:nth-child(odd){
+    background-color: brown;
+}
+.tbl_row2{
+    background-color: coral;
+}
+.tbl_row2:hover{
+    background-color: cornsilk;
+}
